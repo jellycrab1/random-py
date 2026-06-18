@@ -10,7 +10,7 @@ def guess_the_number():
             guess = int(input("Guess a number between 1 and 100: "))
             attempts += 1
             if guess < number:
-                print("Too low! Try again.")
+                print("Too low! Try again u failure.")
             elif guess > number:
                 print("Too high! Try again.")
             else:
